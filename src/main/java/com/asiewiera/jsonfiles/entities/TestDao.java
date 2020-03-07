@@ -8,8 +8,8 @@ import java.util.List;
 
 @Entity
 @Data
-@Table(name="test")
-public class Test {
+@Table(name = "test")
+public class TestDao {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
