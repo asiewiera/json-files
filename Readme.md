@@ -4,6 +4,7 @@ To create database for first application run, line: "spring.jpa.hibernate.ddl-au
 'application.properties' file must be changed to "spring.jpa.hibernate.ddl-auto=create"
 
 1.  Application check 'files' directory every 1 hour. If new '.json' files are available they are read and the content is written to database.
-
-
-
+2. Application has Rest Api which enables to:
+    -start test,
+    -iterate through questions
+    -stop test and display correct answers

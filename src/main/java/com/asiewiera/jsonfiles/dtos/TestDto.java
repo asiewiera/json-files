@@ -14,7 +14,7 @@ import java.util.List;
 @Data
 public class TestDto {
 
-
+    private Long id;
     private String category;
     private String subCategory;
     private Boolean multiSelect;

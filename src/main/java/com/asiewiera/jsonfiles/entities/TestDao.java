@@ -32,9 +32,8 @@ public class TestDao {
     private String text;
 
 
-    @OneToMany(cascade = CascadeType.ALL)
+    @OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
     @JoinColumn(name = "test_id")
-
     private List<Answer> answerList;
 
     @Column(name = "explanation", nullable = false, columnDefinition = "TEXT")
